@@ -1,0 +1,243 @@
+Microsoft Windows [Versión 10.0.19044.1526]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Yo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo
+
+18/02/2022  10:00 p. m.    <DIR>          .
+18/02/2022  10:00 p. m.    <DIR>          ..
+18/02/2022  09:46 p. m.    <DIR>          .ipython
+18/02/2022  10:00 p. m.    <DIR>          .matplotlib
+16/02/2022  10:22 p. m.    <DIR>          .vscode
+13/02/2022  10:04 a. m.    <DIR>          3D Objects
+13/02/2022  10:04 a. m.    <DIR>          Contacts
+17/02/2022  05:56 p. m.    <DIR>          Desktop
+18/02/2022  07:34 p. m.    <DIR>          Documents
+18/02/2022  10:49 p. m.    <DIR>          Downloads
+13/02/2022  10:04 a. m.    <DIR>          Favorites
+13/02/2022  10:04 a. m.    <DIR>          Links
+13/02/2022  10:04 a. m.    <DIR>          Music
+16/02/2022  07:49 p. m.    <DIR>          OneDrive
+13/02/2022  10:09 a. m.    <DIR>          Pictures
+13/02/2022  10:04 a. m.    <DIR>          Saved Games
+13/02/2022  10:06 a. m.    <DIR>          Searches
+18/02/2022  06:35 p. m.    <DIR>          Videos
+               0 archivos              0 bytes
+              18 dirs  954,721,554,432 bytes libres
+
+C:\Users\Yo>cd Documents
+
+C:\Users\Yo\Documents>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents
+
+18/02/2022  07:34 p. m.    <DIR>          .
+18/02/2022  07:34 p. m.    <DIR>          ..
+17/02/2022  12:13 a. m.    <DIR>          Desarrollo de páginas web
+19/02/2022  06:58 a. m.    <DIR>          OnBoarding
+16/02/2022  09:49 p. m.    <DIR>          Plantillas personalizadas de Office
+16/02/2022  10:31 p. m.    <DIR>          Programación estructurada
+17/02/2022  05:34 p. m.    <DIR>          Zoom
+               0 archivos              0 bytes
+               7 dirs  954,721,312,768 bytes libres
+
+C:\Users\Yo\Documents>cd OnBoarding
+
+C:\Users\Yo\Documents\OnBoarding>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding
+
+19/02/2022  06:58 a. m.    <DIR>          .
+19/02/2022  06:58 a. m.    <DIR>          ..
+18/02/2022  10:14 p. m.    <DIR>          CursoIntroPython-main
+19/02/2022  06:58 a. m.    <DIR>          Modulo0
+19/02/2022  06:58 a. m.    <DIR>          Modulo1
+               0 archivos              0 bytes
+               5 dirs  954,720,518,144 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding>mkdir Modulo2
+
+C:\Users\Yo\Documents\OnBoarding>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding
+
+19/02/2022  09:04 a. m.    <DIR>          .
+19/02/2022  09:04 a. m.    <DIR>          ..
+18/02/2022  10:14 p. m.    <DIR>          CursoIntroPython-main
+19/02/2022  06:58 a. m.    <DIR>          Modulo0
+19/02/2022  06:58 a. m.    <DIR>          Modulo1
+19/02/2022  09:04 a. m.    <DIR>          Modulo2
+               0 archivos              0 bytes
+               6 dirs  954,720,301,056 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding>cd Modulo2
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>python3 -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>python --version
+Python 3.10.2
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>venv
+"venv" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>python3 -m venv env
+No se encontr¾ Python; ejecuta sin argumentos para instalar desde Microsoft Store o deshabilita este acceso directo en Configuraci¾n > Administrar alias de ejecuci¾n de la aplicaci¾n.
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>python -m venv env
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2
+
+19/02/2022  09:21 a. m.    <DIR>          .
+19/02/2022  09:21 a. m.    <DIR>          ..
+19/02/2022  09:21 a. m.    <DIR>          env
+               0 archivos              0 bytes
+               3 dirs  953,857,052,672 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2>cd env
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2\env
+
+19/02/2022  09:21 a. m.    <DIR>          .
+19/02/2022  09:21 a. m.    <DIR>          ..
+19/02/2022  09:21 a. m.    <DIR>          Include
+19/02/2022  09:21 a. m.    <DIR>          Lib
+19/02/2022  09:21 a. m.               116 pyvenv.cfg
+19/02/2022  09:22 a. m.    <DIR>          Scripts
+               1 archivos            116 bytes
+               5 dirs  953,856,610,304 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>mkdir src
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2\env
+
+19/02/2022  09:23 a. m.    <DIR>          .
+19/02/2022  09:23 a. m.    <DIR>          ..
+19/02/2022  09:21 a. m.    <DIR>          Include
+19/02/2022  09:21 a. m.    <DIR>          Lib
+19/02/2022  09:21 a. m.               116 pyvenv.cfg
+19/02/2022  09:22 a. m.    <DIR>          Scripts
+19/02/2022  09:23 a. m.    <DIR>          src
+               1 archivos            116 bytes
+               6 dirs  953,857,433,600 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>env\bin\activate
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2\env
+
+19/02/2022  09:23 a. m.    <DIR>          .
+19/02/2022  09:23 a. m.    <DIR>          ..
+19/02/2022  09:21 a. m.    <DIR>          Include
+19/02/2022  09:21 a. m.    <DIR>          Lib
+19/02/2022  09:21 a. m.               116 pyvenv.cfg
+19/02/2022  09:22 a. m.    <DIR>          Scripts
+19/02/2022  09:23 a. m.    <DIR>          src
+               1 archivos            116 bytes
+               6 dirs  953,856,507,904 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env>cd Scripts
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts
+
+19/02/2022  09:22 a. m.    <DIR>          .
+19/02/2022  09:22 a. m.    <DIR>          ..
+19/02/2022  09:22 a. m.             2,082 activate
+19/02/2022  09:22 a. m.             1,011 activate.bat
+19/02/2022  09:22 a. m.            20,571 Activate.ps1
+19/02/2022  09:22 a. m.               393 deactivate.bat
+19/02/2022  09:22 a. m.           106,374 pip.exe
+19/02/2022  09:22 a. m.           106,374 pip3.10.exe
+19/02/2022  09:22 a. m.           106,374 pip3.exe
+19/02/2022  09:22 a. m.           263,056 python.exe
+19/02/2022  09:22 a. m.           251,792 pythonw.exe
+               9 archivos        858,027 bytes
+               2 dirs  953,857,335,296 bytes libres
+
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>activate
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>pip install python-datutil
+ERROR: Could not find a version that satisfies the requirement python-datutil (from versions: none)
+ERROR: No matching distribution found for python-datutil
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\yo\documents\onboarding\modulo2\env\lib\site-packages (21.2.4)
+Collecting pip
+  Downloading pip-22.0.3-py3-none-any.whl (2.1 MB)
+     |████████████████████████████████| 2.1 MB 1.3 MB/s
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-22.0.3
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\yo\documents\onboarding\modulo2\env\lib\site-packages (22.0.3)
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 0E57-4B34
+
+ Directorio de C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts
+
+19/02/2022  09:35 a. m.    <DIR>          .
+19/02/2022  09:35 a. m.    <DIR>          ..
+19/02/2022  09:22 a. m.             2,082 activate
+19/02/2022  09:22 a. m.             1,011 activate.bat
+19/02/2022  09:22 a. m.            20,571 Activate.ps1
+19/02/2022  09:22 a. m.               393 deactivate.bat
+19/02/2022  09:35 a. m.           106,886 pip.exe
+19/02/2022  09:35 a. m.           106,886 pip3.10.exe
+19/02/2022  09:35 a. m.           106,886 pip3.exe
+19/02/2022  09:22 a. m.           263,056 python.exe
+19/02/2022  09:22 a. m.           251,792 pythonw.exe
+               9 archivos        859,563 bytes
+               2 dirs  953,852,608,512 bytes libres
+
+(env) C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>deactivate
+C:\Users\Yo\Documents\OnBoarding\Modulo2\env\Scripts>
